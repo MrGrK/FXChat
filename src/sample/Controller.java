@@ -41,5 +41,6 @@ public class Controller {
    public void enterPressed(KeyEvent keyEvent) {
       if(keyEvent.getCode() == KeyCode.ENTER) {
          btSend.getOnAction().handle(new ActionEvent()) ;
-      }}
+      }
+   }
 }
